@@ -12,6 +12,7 @@ const Filter = ({ filter, onChange }) => {
           name="filter"
           value={filter}
           onChange={onChange}
+          placeholder="Please enter name for search"
         />
       </label>
     </div>
